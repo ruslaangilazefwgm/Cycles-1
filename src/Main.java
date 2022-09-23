@@ -33,13 +33,14 @@ public class Main {
         // Задание 2.2
         System.out.println("Задание 2.2");
         for (int i = 7; i <= 98; i+=7) {
-            System.out.println(i);
+            System.out.print(i + " ");
         }
+        System.out.println();
 
         // Задание 2.3
         System.out.println("Задание 2.3");
         for (int i = 1; i <= 512; i*=2) {
-            System.out.println(i);
+            System.out.print(i + " ");
         }
     }
 }
