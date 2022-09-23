@@ -54,11 +54,11 @@ public class Main {
         // Задание 3.2
         System.out.println("Задание 3.2");
         //int deposit = 29000;
-        //int total = 0;
+        double total2 = 0;
         for (int i = 1; i <= 12; i++) {
-            total = total + total/100;
-            total = total + deposit;
-            System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
+            total2 = total2 + deposit;
+            total2 = total2 + (deposit / 100);
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + total2 + " рублей");
         }
     }
 }
