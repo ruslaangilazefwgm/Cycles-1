@@ -52,7 +52,7 @@ public class Main {
         }
 
         // Задание 3.2
-        System.out.println("Задание 3.2");
+        System.out.println("Задание 3.2 ");
         //int deposit = 29000;
         double total2 = 0;
         for (int i = 1; i <= 12; i++) {
